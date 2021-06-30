@@ -1,6 +1,6 @@
 import React from 'react'
-import MyId from './MyId'
-import MyTabs from './MyTabs'
+import MyIdDiv from './MyIdDiv'
+import MyTabsDiv from './MyTabsDiv'
 
 const useStyle = {
     backgroundColor: '#cfe8fc',
@@ -14,8 +14,8 @@ const useStyle = {
 export default function AppContainer() {
     return (
         <div style={useStyle}>
-            <MyId/>
-            <MyTabs/>
+            <MyIdDiv/>
+            <MyTabsDiv/>
         </div>
     )
 }

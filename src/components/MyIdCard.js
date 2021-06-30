@@ -1,11 +1,19 @@
 import React from 'react'
+import styles from './css_modules/MyIdCard.module.css'
+
+import myPic from '../images/my-pic.png'
+
 
 const useStyle = {
     backgroundColor: 'lightGreen',
     color: 'black',
     width: '100%',
     maxHeight: '400px',
+    marginRight: 8,
+    marginLeft: 8,
     textAlign: 'center',
+    borderRadius: '8px',
+    boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)',
 }
 const button = {
     width: '200px',
@@ -15,8 +23,10 @@ const button = {
 export default function MyIdCard() {
     return (
         <div style={useStyle}>
-            <div>
-                <img src='' alt='avatar' style={{width:'100%'}}></img>
+            <div className={styles.avatarDiv}>
+                <div className={styles.avatarFrame}>
+                    <img src={myPic} alt='avatar' className={styles.avatar}></img>
+                </div>
             </div>
             <h2>Rizwan Mushtaq</h2>
             <h3>Front End Web Developer</h3>
