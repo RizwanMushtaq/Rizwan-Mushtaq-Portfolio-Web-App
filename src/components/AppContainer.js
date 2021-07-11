@@ -1,6 +1,10 @@
 import React from 'react'
+import { useMediaPredicate } from 'react-media-hook'
 import MyIdDiv from './MyIdDiv'
 import MyTabsDiv from './MyTabsDiv'
+
+import styles from './css_modules/AppContainer.module.css'
+
 
 const useStyle = {
     backgroundColor: '#cfe8fc',
@@ -10,11 +14,13 @@ const useStyle = {
     display: 'flex',
 }
 
-
 export default function AppContainer() {
+
+    const biggerThan768 = useMediaPredicate("(min-width: 768px)")
+
     return (
         <div style={useStyle}>
-            <MyIdDiv/>
+            { biggerThan768 && <MyIdDiv />}
             <MyTabsDiv/>
         </div>
     )

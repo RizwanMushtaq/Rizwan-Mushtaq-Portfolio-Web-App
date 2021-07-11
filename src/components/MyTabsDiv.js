@@ -1,7 +1,8 @@
 import React from 'react'
+import MyTabsHeader from './MyTabsHeader'
 
 const useStyle = {
-    backgroundColor: '#ffaadd',
+    backgroundColor: '#cfe8fc',
     color: 'black',
     flexGrow: '1',
     display: 'flex',
@@ -10,7 +11,7 @@ const useStyle = {
 export default function MyTabs() {
     return (
         <div style={useStyle}>
-            My Tabs
+            <MyTabsHeader />
         </div>
     )
 }

@@ -9,10 +9,10 @@ const useStyle = {
     color: 'black',
     width: '100%',
     maxHeight: '400px',
-    marginRight: 8,
+    marginTop: 4,
     marginLeft: 8,
     textAlign: 'center',
-    borderRadius: '8px',
+    borderRadius: '4px',
     boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)',
 }
 const button = {
