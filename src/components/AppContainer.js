@@ -3,7 +3,7 @@ import { useMediaPredicate } from 'react-media-hook'
 import MyIdDiv from './MyIdDiv'
 import MyTabsDiv from './MyTabsDiv'
 
-import styles from './css_modules/AppContainer.module.css'
+// import styles from './css_modules/AppContainer.module.css'
 
 
 const useStyle = {
