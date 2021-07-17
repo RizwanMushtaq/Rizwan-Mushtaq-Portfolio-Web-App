@@ -1,0 +1,17 @@
+@import '../../sass/Variables.scss';
+@import '../../sass/Mixins.scss';
+
+
+.container{
+    background-color: $backgroundColor;
+    color: $textColor;
+    max-width: 1280px;
+    min-height: 100vh;
+    margin: auto;
+    display: flex;
+    
+    @include mQ(768px){
+        display: flex;
+        flex-direction: column;
+    }
+}

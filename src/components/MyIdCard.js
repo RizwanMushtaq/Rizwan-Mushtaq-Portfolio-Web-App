@@ -1,37 +1,30 @@
 import React from 'react'
-import styles from './css_modules/MyIdCard.module.css'
+import styles from './css_modules/MyIdCard.module.scss'
 
 import myPic from '../images/my-pic.png'
-
-
-const useStyle = {
-    backgroundColor: 'lightGreen',
-    color: 'black',
-    width: '100%',
-    maxHeight: '400px',
-    marginTop: 4,
-    marginLeft: 8,
-    textAlign: 'center',
-    borderRadius: '4px',
-    boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)',
-}
-const button = {
-    width: '200px',
-    height: '32px',
-}
+import myCV from '../images/CV_Rizwan.pdf'
 
 export default function MyIdCard() {
     return (
-        <div style={useStyle}>
+        <div className={styles.container}>
             <div className={styles.avatarDiv}>
                 <div className={styles.avatarFrame}>
                     <img src={myPic} alt='avatar' className={styles.avatar}></img>
                 </div>
             </div>
-            <h2>Rizwan Mushtaq</h2>
-            <h3>Front End Web Developer</h3>
-            <h4>Passionate about Coding</h4>
-            <button style={button}>CV</button>
+            <div className={styles.name}>
+                <h2>Rizwan Mushtaq</h2>
+            </div>
+            <div className={styles.profession}>
+                <h3>Full Stack Web Developer</h3>
+                <h4>Sass JavaScript React.JS</h4>
+                <h4>Node.JS PHP MongoDB MySQL</h4>
+            </div>
+            <div className={styles.bio}>
+                <h4>Passionate to Develop a Product</h4>
+            </div>
+            
+            <button className={styles.cvButton} onClick = {() => window.open(myCV)}>CV</button>
         </div>
     )
 }

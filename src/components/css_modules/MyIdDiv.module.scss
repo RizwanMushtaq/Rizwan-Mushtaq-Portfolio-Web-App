@@ -1,0 +1,10 @@
+@import '../../sass/Variables.scss';
+
+.container{
+    background-color: $backgroundColor;
+    color: $textColor;
+    min-width: 250px;
+    max-width: 100%;
+    // flex: 0 0 250px;
+    display: flex;
+}

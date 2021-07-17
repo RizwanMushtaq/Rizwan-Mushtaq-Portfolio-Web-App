@@ -1,0 +1,20 @@
+@import '../../sass/Variables.scss';
+
+.myTabsHeader{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.myTabsButton{
+    flex-grow: 1;
+    height: 100%;
+    background-color: white;
+    color: $textColor;
+    outline: none;
+    font-size: 32px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}

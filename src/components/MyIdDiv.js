@@ -1,17 +1,11 @@
 import React from 'react'
-import MyIdCard from './MyIdCard'
+import styles from './css_modules/MyIdDiv.module.scss'
 
-const useStyle = {
-    backgroundColor: '#cfe8fc',
-    color: 'black',
-    flex: '0 0 250px',
-    display: 'flex',
-}
 
-export default function MyIdDiv() {
+export default function MyIdDiv(props) {
     return (
-        <div style={useStyle}>
-            <MyIdCard></MyIdCard>
+        <div className={styles.container}>
+            {props.children}
         </div>
     )
 }
