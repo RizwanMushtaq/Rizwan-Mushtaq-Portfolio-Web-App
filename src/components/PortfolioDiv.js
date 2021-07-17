@@ -98,7 +98,7 @@ export default function PortfolioDiv() {
 
             </div>
             {/* 3rd Project ********************************************** */}
-            <div className={styles.projectContainer}>
+            {/* <div className={styles.projectContainer}>
                 <div className={styles.projectHeading}>
                     3rd Project
                 </div>
@@ -117,7 +117,7 @@ export default function PortfolioDiv() {
                     Prject Description
                 </div>
 
-            </div>
+            </div> */}
 
         </div>
     )
