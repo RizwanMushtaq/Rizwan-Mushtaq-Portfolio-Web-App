@@ -14,7 +14,8 @@ import PrintMyTweetApp564 from '../images/PrintMyTweetApp/PrintMyTweetAppImage-5
 // import PrintMyTweetApp464 from '../images/PrintMyTweetApp/PrintMyTweetAppImage-464.png'
 import PrintMyTweetApp364 from '../images/PrintMyTweetApp/PrintMyTweetAppImage-364.png'
 
-
+//Do IT Now App - PHP Images
+import DoItNowAppPHPImage from '../images/DoItNowApp_PHP/doitnow_php_1006-255.png'
 
 export default function PortfolioDiv() {
 
@@ -81,7 +82,7 @@ export default function PortfolioDiv() {
                     Do It Now App (MySQL_PHP_JavaScript_CSS_HTML)
                 </div>
                 <div className={styles.imageContainer}>
-                    <img alt="project img"></img>
+                    <img src={DoItNowAppPHPImage} alt="project img"></img>
                 </div>
                 <div className={styles.buttonContainer}>
                     <button onClick={() => window.open('https://doitnow-mysql-php-js-css-herok.herokuapp.com/')}>Live Demo</button>
