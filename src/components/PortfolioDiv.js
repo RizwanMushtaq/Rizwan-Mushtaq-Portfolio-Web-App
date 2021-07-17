@@ -78,17 +78,17 @@ export default function PortfolioDiv() {
             {/* 2nd Project ********************************************** */}
             <div className={styles.projectContainer}>
                 <div className={styles.projectHeading}>
-                    2nd Project
+                    Do It Now App (MySQL_PHP_JavaScript_CSS_HTML)
                 </div>
                 <div className={styles.imageContainer}>
                     <img alt="project img"></img>
                 </div>
                 <div className={styles.buttonContainer}>
-                    <button>Live Demo</button>
+                    <button onClick={() => window.open('https://doitnow-mysql-php-js-css-herok.herokuapp.com/')}>Live Demo</button>
                     <div className={styles.arrowLogoContainer}>
                         <img src={arrowlogo} alt="arrow symbol" onClick={handleDescriptionVisibility} className={styles.arrowDown}></img>
                     </div>
-                    <button> Code </button>
+                    <button onClick={() => window.open('https://github.com/RizwanMushtaq/doitnow_mysql_php_js_css_heroku')}> Code </button>
                 </div>
                 
                 <div className={styles.projectDescription}>
