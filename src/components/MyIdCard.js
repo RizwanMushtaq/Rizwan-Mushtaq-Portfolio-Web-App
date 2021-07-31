@@ -13,15 +13,15 @@ export default function MyIdCard() {
                 </div>
             </div>
             <div className={styles.name}>
-                <h2>Rizwan Mushtaq</h2>
+                <p>Rizwan Mushtaq</p>
             </div>
             <div className={styles.profession}>
-                <h3>Full Stack Web Developer</h3>
-                <h4>Sass JavaScript React.JS</h4>
-                <h4>Node.JS PHP MongoDB MySQL</h4>
+                <p>Full Stack Web Developer</p>
+                <p>Sass JavaScript React.JS</p>
+                <p>Node.JS PHP MongoDB MySQL</p>
             </div>
             <div className={styles.bio}>
-                <h4>Passionate to Develop a Product</h4>
+                <p>Passionate to Develop a Product</p>
             </div>
             
             <button className={styles.cvButton} onClick = {() => window.open(myCV)}>CV</button>

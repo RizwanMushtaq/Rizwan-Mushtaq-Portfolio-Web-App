@@ -8,12 +8,13 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .projectHeading{
-    font-size: $h1;
+    font-size: $h1b;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 4px;
+    padding: 8px 0 8px 0;
 }
 .imageContainer {
     height: 256px;
