@@ -65,9 +65,11 @@ export default function PortfolioDiv() {
                 </div>
                 <div className={styles.buttonContainer}>
                     <button onClick={() => window.open('https://rizwanmushtaq.github.io/PrintMyTweet/')}>Live Demo</button>
+                    
                     <div className={styles.arrowLogoContainer}>
                         <img src={arrowlogo} alt="arrow symbol" onClick={handleDescriptionVisibility} className={styles.arrowDown}></img>
                     </div>
+                    
                     <button onClick={() => window.open('https://github.com/RizwanMushtaq/PrintMyTweet/tree/main')}> Code </button>
                 </div>
                 
