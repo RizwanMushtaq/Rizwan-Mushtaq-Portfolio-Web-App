@@ -9,7 +9,8 @@ import MyTabsDiv from './components/MyTabsDiv'
 function App() {
 
   // const biggerThan768 = useMediaPredicate("(min-width: 768px)")
-
+  // App Component
+  
   return (
     <div className="App">
       <AppContainer>
