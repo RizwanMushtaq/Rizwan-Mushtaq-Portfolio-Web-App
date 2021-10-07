@@ -48,7 +48,125 @@ export default function PortfolioDiv() {
             {/* 1st Project ********************************************** */}
             <div className={styles.projectContainer}>
                 <div className={styles.projectHeading}>
-                    Print My Tweet App
+                    Do It Now App (React.JS)
+                </div>
+                <div className={styles.imageContainer}>
+                    <picture>
+                        <source media="(min-width: 1280px)" srcSet={DoItNowAppPHPImage} />
+                        <source media="(min-width: 1180px)" srcSet={DoItNowAppPHPImage} />
+                        <source media="(min-width: 1080px)" srcSet={DoItNowAppPHPImage914} />
+                        <source media="(min-width: 980px)" srcSet={DoItNowAppPHPImage814} />
+                        <source media="(min-width: 880px)" srcSet={DoItNowAppPHPImage714} />
+                        <source media="(min-width: 780px)" srcSet={DoItNowAppPHPImage614} />
+
+                        <source media="(min-width: 768px)" srcSet={DoItNowAppPHPImage614} />
+                        
+                        <source media="(min-width: 680px)" srcSet={DoItNowAppPHPImage614} />
+                        <source media="(min-width: 580px)" srcSet={DoItNowAppPHPImage664} />
+                        <source media="(min-width: 480px)" srcSet={DoItNowAppPHPImage564} />
+                        <source media="(min-width: 380px)" srcSet={DoItNowAppPHPImage364} />
+                        <img src={DoItNowAppPHPImage364} alt="project img" />
+                    </picture>
+                </div>
+                <div className={styles.buttonContainer}>
+                    <button onClick={() => window.open('https://doitnow-mysql-php-js-css-herok.herokuapp.com/')}>Live Demo</button>
+                    <div className={styles.arrowLogoContainer}>
+                        <img src={arrowlogo} alt="arrow symbol" onClick={handleDescriptionVisibility} className={styles.arrowDown}></img>
+                    </div>
+                    <button onClick={() => window.open('https://github.com/RizwanMushtaq/doitnow_mysql_php_js_css_heroku')}> Code </button>
+                </div>
+                
+                <div className={styles.projectDescription}>
+                    <div>Technologies Used</div>
+                    <div className={styles.projectDescriptionDetails}>
+                        <ul>
+                            <li>Front-End Development</li>
+                                <ul>
+                                    <li>React.js</li>
+                                    <li>Sass</li>
+                                </ul>
+                            <li>Back-End Development</li>
+                                <ul>
+                                    <li>RestFul API</li>
+                                </ul>
+                        </ul>
+                    </div>
+                    <div>Application Features</div>
+                    <div className={styles.projectDescriptionDetails}>
+                        <ul>
+                            <li>Registration of user is done and user data is saved in backend</li>
+                            <li>User login functionality is added</li>
+                            <li>User can add ToDo items in list</li>
+                            <li>User can add ToDo items in folder to organize ToDo list</li>  
+                            <li>User can see ToDo list based to date selected in Dialog</li>
+                            <li>User can see Weekly ToDo list in Dialog</li>
+                            <li>User can delete ToDo item from list</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            {/* 2nd Project ********************************************** */}
+            <div className={styles.projectContainer}>
+                <div className={styles.projectHeading}>
+                    Do It Now App (RestFul API)
+                </div>
+                <div className={styles.imageContainer}>
+                    <picture>
+                        <source media="(min-width: 1280px)" srcSet={DoItNowAppPHPImage} />
+                        <source media="(min-width: 1180px)" srcSet={DoItNowAppPHPImage} />
+                        <source media="(min-width: 1080px)" srcSet={DoItNowAppPHPImage914} />
+                        <source media="(min-width: 980px)" srcSet={DoItNowAppPHPImage814} />
+                        <source media="(min-width: 880px)" srcSet={DoItNowAppPHPImage714} />
+                        <source media="(min-width: 780px)" srcSet={DoItNowAppPHPImage614} />
+
+                        <source media="(min-width: 768px)" srcSet={DoItNowAppPHPImage614} />
+                        
+                        <source media="(min-width: 680px)" srcSet={DoItNowAppPHPImage614} />
+                        <source media="(min-width: 580px)" srcSet={DoItNowAppPHPImage664} />
+                        <source media="(min-width: 480px)" srcSet={DoItNowAppPHPImage564} />
+                        <source media="(min-width: 380px)" srcSet={DoItNowAppPHPImage364} />
+                        <img src={DoItNowAppPHPImage364} alt="project img" />
+                    </picture>
+                </div>
+                <div className={styles.buttonContainer}>
+                    <button onClick={() => window.open('https://doitnow-mysql-php-js-css-herok.herokuapp.com/')}>Live Demo</button>
+                    <div className={styles.arrowLogoContainer}>
+                        <img src={arrowlogo} alt="arrow symbol" onClick={handleDescriptionVisibility} className={styles.arrowDown}></img>
+                    </div>
+                    <button onClick={() => window.open('https://github.com/RizwanMushtaq/doitnow_mysql_php_js_css_heroku')}> Code </button>
+                </div>
+                
+                <div className={styles.projectDescription}>
+                    <div>Technologies Used</div>
+                    <div className={styles.projectDescriptionDetails}>
+                        <ul>
+                            <li>RESTFUL API</li>
+                                <ul>
+                                    <li>Node.js</li>
+                                    <li>Express.js</li>
+                                    <li>MySQL</li>
+                                </ul>
+                        </ul>
+                    </div>
+                    <div>Application Features</div>
+                    <div className={styles.projectDescriptionDetails}>
+                        <ul>
+                            <li>Registration of user is done and user data is saved in backend</li>
+                            <li>User login functionality is added</li>
+                            <li>User can add ToDo items in list</li>
+                            <li>User can add ToDo items in folder to organize ToDo list</li>  
+                            <li>User can see ToDo list based to date selected in Dialog</li>
+                            <li>User can see Weekly ToDo list in Dialog</li>
+                            <li>User can delete ToDo item from list</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            {/* 3rd Project ********************************************** */}
+            <div className={styles.projectContainer}>
+                <div className={styles.projectHeading}>
+                    Print My Tweet App (Vanilla JavaScript)
                 </div>
                 <div className={styles.imageContainer}>
                     <picture>
@@ -102,12 +220,12 @@ export default function PortfolioDiv() {
                         </ul>
                     </div>
                 </div>
-
             </div>
-            {/* 2nd Project ********************************************** */}
+
+            {/* 4th Project ********************************************** */}
             <div className={styles.projectContainer}>
                 <div className={styles.projectHeading}>
-                    Do It Now App (Vanilla JavaScript)
+                    Do It Now App (Vanilla JavaScript & PHP)
                 </div>
                 <div className={styles.imageContainer}>
                     <picture>
@@ -165,72 +283,8 @@ export default function PortfolioDiv() {
                         </ul>
                     </div>
                 </div>
-
             </div>
-            {/* 3rd Project ********************************************** */}
-            <div className={styles.projectContainer}>
-                <div className={styles.projectHeading}>
-                    Do It Now App (React.JS)
-                </div>
-                <div className={styles.imageContainer}>
-                    <picture>
-                        <source media="(min-width: 1280px)" srcSet={DoItNowAppPHPImage} />
-                        <source media="(min-width: 1180px)" srcSet={DoItNowAppPHPImage} />
-                        <source media="(min-width: 1080px)" srcSet={DoItNowAppPHPImage914} />
-                        <source media="(min-width: 980px)" srcSet={DoItNowAppPHPImage814} />
-                        <source media="(min-width: 880px)" srcSet={DoItNowAppPHPImage714} />
-                        <source media="(min-width: 780px)" srcSet={DoItNowAppPHPImage614} />
-
-                        <source media="(min-width: 768px)" srcSet={DoItNowAppPHPImage614} />
-                        
-                        <source media="(min-width: 680px)" srcSet={DoItNowAppPHPImage614} />
-                        <source media="(min-width: 580px)" srcSet={DoItNowAppPHPImage664} />
-                        <source media="(min-width: 480px)" srcSet={DoItNowAppPHPImage564} />
-                        <source media="(min-width: 380px)" srcSet={DoItNowAppPHPImage364} />
-                        <img src={DoItNowAppPHPImage364} alt="project img" />
-                    </picture>
-                </div>
-                <div className={styles.buttonContainer}>
-                    <button onClick={() => window.open('https://doitnow-mysql-php-js-css-herok.herokuapp.com/')}>Live Demo</button>
-                    <div className={styles.arrowLogoContainer}>
-                        <img src={arrowlogo} alt="arrow symbol" onClick={handleDescriptionVisibility} className={styles.arrowDown}></img>
-                    </div>
-                    <button onClick={() => window.open('https://github.com/RizwanMushtaq/doitnow_mysql_php_js_css_heroku')}> Code </button>
-                </div>
-                
-                <div className={styles.projectDescription}>
-                    <div>Technologies Used</div>
-                    <div className={styles.projectDescriptionDetails}>
-                        <ul>
-                            <li>Front-End Development</li>
-                                <ul>
-                                    <li>React.js</li>
-                                    <li>Sass</li>
-                                </ul>
-                            <li>Back-End Development</li>
-                                <ul>
-                                    <li>Node.js</li>
-                                    <li>Express.js</li>
-                                    <li>MySQL</li>
-                                </ul>
-                        </ul>
-                    </div>
-                    <div>Application Features</div>
-                    <div className={styles.projectDescriptionDetails}>
-                        <ul>
-                            <li>Registration of user is done and user data is saved in backend</li>
-                            <li>User login functionality is added</li>
-                            <li>User can add ToDo items in list</li>
-                            <li>User can add ToDo items in folder to organize ToDo list</li>  
-                            <li>User can see ToDo list based to date selected in Dialog</li>
-                            <li>User can see Weekly ToDo list in Dialog</li>
-                            <li>User can delete ToDo item from list</li>
-                        </ul>
-                    </div>
-                </div>
-
-            </div>
-
+            
         </div>
     )
 }
