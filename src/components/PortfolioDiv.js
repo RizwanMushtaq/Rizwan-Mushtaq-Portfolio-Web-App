@@ -3,18 +3,21 @@ import styles from './css_modules/PortfolioDiv.module.scss'
 
 import arrowlogo from '../images/arrowSymbol.svg'
 
+//Do It Now App - React.JS 
+
+
+
+//Print My Tweet App Images
 import PrintMyTweetAppProjectImage from '../images/PrintMyTweetApp/PrintMyTweetAppImage.png'
 import PrintMyTweetApp914 from '../images/PrintMyTweetApp/PrintMyTweetAppImage-914.png'
 import PrintMyTweetApp814 from '../images/PrintMyTweetApp/PrintMyTweetAppImage-814.png'
 import PrintMyTweetApp714 from '../images/PrintMyTweetApp/PrintMyTweetAppImage-714.png'
 import PrintMyTweetApp614 from '../images/PrintMyTweetApp/PrintMyTweetAppImage-614.png'
-// import PrintMyTweetApp514 from '../images/PrintMyTweetApp/PrintMyTweetAppImage-514.png'
 import PrintMyTweetApp664 from '../images/PrintMyTweetApp/PrintMyTweetAppImage-664.png'
 import PrintMyTweetApp564 from '../images/PrintMyTweetApp/PrintMyTweetAppImage-564.png'
-// import PrintMyTweetApp464 from '../images/PrintMyTweetApp/PrintMyTweetAppImage-464.png'
 import PrintMyTweetApp364 from '../images/PrintMyTweetApp/PrintMyTweetAppImage-364.png'
 
-//Do IT Now App - PHP Images
+//Do IT Now App - Java Script & PHP Images
 import DoItNowAppPHPImage from '../images/DoItNowApp_PHP/doitnow_php_1006-255.png'
 import DoItNowAppPHPImage914 from '../images/DoItNowApp_PHP/doitnow_php_914-255.png'
 import DoItNowAppPHPImage814 from '../images/DoItNowApp_PHP/doitnow_php_814-255.png'
@@ -69,26 +72,21 @@ export default function PortfolioDiv() {
                     </picture>
                 </div>
                 <div className={styles.buttonContainer}>
-                    <button onClick={() => window.open('https://doitnow-mysql-php-js-css-herok.herokuapp.com/')}>Live Demo</button>
+                    <button onClick={() => window.open('https://doitnow-reactjs-sass.netlify.app/')}>Live Demo</button>
                     <div className={styles.arrowLogoContainer}>
                         <img src={arrowlogo} alt="arrow symbol" onClick={handleDescriptionVisibility} className={styles.arrowDown}></img>
                     </div>
-                    <button onClick={() => window.open('https://github.com/RizwanMushtaq/doitnow_mysql_php_js_css_heroku')}> Code </button>
+                    <button onClick={() => window.open('https://github.com/RizwanMushtaq/doitnow_reactjs_sass')}> Code </button>
                 </div>
                 
                 <div className={styles.projectDescription}>
                     <div>Technologies Used</div>
                     <div className={styles.projectDescriptionDetails}>
                         <ul>
-                            <li>Front-End Development</li>
-                                <ul>
-                                    <li>React.js</li>
-                                    <li>Sass</li>
-                                </ul>
-                            <li>Back-End Development</li>
-                                <ul>
-                                    <li>RestFul API</li>
-                                </ul>
+                            <li>React.js</li>
+                            <li>Sass</li>
+                            <li>JSON Web Token</li>
+                            <li>date-fns - Modern JavaScript date utility library</li>
                         </ul>
                     </div>
                     <div>Application Features</div>
@@ -96,10 +94,10 @@ export default function PortfolioDiv() {
                         <ul>
                             <li>Registration of user is done and user data is saved in backend</li>
                             <li>User login functionality is added</li>
-                            <li>User can add ToDo items in list</li>
-                            <li>User can add ToDo items in folder to organize ToDo list</li>  
-                            <li>User can see ToDo list based to date selected in Dialog</li>
-                            <li>User can see Weekly ToDo list in Dialog</li>
+                            <li>User authorization is done using JWTs</li>
+                            <li>User can see calender View and each day with todo items is makred with icon</li>
+                            <li>User can add ToDo items for each day selected in calender</li>  
+                            <li>User can set the ToDo item to done or undone state</li>
                             <li>User can delete ToDo item from list</li>
                         </ul>
                     </div>
