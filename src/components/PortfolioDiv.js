@@ -4,8 +4,21 @@ import styles from './css_modules/PortfolioDiv.module.scss'
 import arrowlogo from '../images/arrowSymbol.svg'
 
 //Do It Now App - React.JS 
+import DoItNowAppReactImage from '../images/DoItNowApp_ReactJS/AppPage-1006-256.png'
+import DoItNowAppReactImage914 from '../images/DoItNowApp_ReactJS/AppPage-914-256.png'
+import DoItNowAppReactImage814 from '../images/DoItNowApp_ReactJS/AppPage-814-256.png'
+import DoItNowAppReactImage714 from '../images/DoItNowApp_ReactJS/AppPage-714-256.png'
+import DoItNowAppReactImage664 from '../images/DoItNowApp_ReactJS/AppPage-664-256.png'
+import DoItNowAppReactImage464 from '../images/DoItNowApp_ReactJS/AppPage-464-256.png'
 
-
+//Do It Now App - REST API
+import DoItNowAppRestApiImage from '../images/DoItNowApp_RestApi/RestApi-1006-256.png'
+import DoItNowAppRestApiImage914 from '../images/DoItNowApp_RestApi/RestApi-914-256.png'
+import DoItNowAppRestApiImage814 from '../images/DoItNowApp_RestApi/RestApi-814-256.png'
+import DoItNowAppRestApiImage714 from '../images/DoItNowApp_RestApi/RestApi-714-256.png'
+import DoItNowAppRestApiImage668 from '../images/DoItNowApp_RestApi/RestApi-668-256.png'
+import DoItNowAppRestApiImage568 from '../images/DoItNowApp_RestApi/RestApi-568-256.png'
+import DoItNowAppRestApiImage614 from '../images/DoItNowApp_RestApi/RestApi-614-256.png'
 
 //Print My Tweet App Images
 import PrintMyTweetAppProjectImage from '../images/PrintMyTweetApp/PrintMyTweetAppImage.png'
@@ -55,20 +68,20 @@ export default function PortfolioDiv() {
                 </div>
                 <div className={styles.imageContainer}>
                     <picture>
-                        <source media="(min-width: 1280px)" srcSet={DoItNowAppPHPImage} />
-                        <source media="(min-width: 1180px)" srcSet={DoItNowAppPHPImage} />
-                        <source media="(min-width: 1080px)" srcSet={DoItNowAppPHPImage914} />
-                        <source media="(min-width: 980px)" srcSet={DoItNowAppPHPImage814} />
-                        <source media="(min-width: 880px)" srcSet={DoItNowAppPHPImage714} />
-                        <source media="(min-width: 780px)" srcSet={DoItNowAppPHPImage614} />
+                        <source media="(min-width: 1280px)" srcSet={DoItNowAppReactImage} />
+                        <source media="(min-width: 1180px)" srcSet={DoItNowAppReactImage} />
+                        <source media="(min-width: 1080px)" srcSet={DoItNowAppReactImage914} />
+                        <source media="(min-width: 980px)" srcSet={DoItNowAppReactImage814} />
+                        <source media="(min-width: 880px)" srcSet={DoItNowAppReactImage714} />
+                        <source media="(min-width: 780px)" srcSet={DoItNowAppReactImage714} />
 
-                        <source media="(min-width: 768px)" srcSet={DoItNowAppPHPImage614} />
+                        <source media="(min-width: 768px)" srcSet={DoItNowAppReactImage664} />
                         
-                        <source media="(min-width: 680px)" srcSet={DoItNowAppPHPImage614} />
-                        <source media="(min-width: 580px)" srcSet={DoItNowAppPHPImage664} />
-                        <source media="(min-width: 480px)" srcSet={DoItNowAppPHPImage564} />
-                        <source media="(min-width: 380px)" srcSet={DoItNowAppPHPImage364} />
-                        <img src={DoItNowAppPHPImage364} alt="project img" />
+                        <source media="(min-width: 680px)" srcSet={DoItNowAppReactImage664} />
+                        <source media="(min-width: 580px)" srcSet={DoItNowAppReactImage664} />
+                        <source media="(min-width: 480px)" srcSet={DoItNowAppReactImage464} />
+                        <source media="(min-width: 380px)" srcSet={DoItNowAppReactImage464} />
+                        <img src={DoItNowAppReactImage464} alt="project img" />
                     </picture>
                 </div>
                 <div className={styles.buttonContainer}>
@@ -95,7 +108,7 @@ export default function PortfolioDiv() {
                             <li>Registration of user is done and user data is saved in backend</li>
                             <li>User login functionality is added</li>
                             <li>User authorization is done using JWTs</li>
-                            <li>User can see calender View and each day with todo items is makred with icon</li>
+                            <li>User can see calender View and each day with todo items is marked with icon</li>
                             <li>User can add ToDo items for each day selected in calender</li>  
                             <li>User can set the ToDo item to done or undone state</li>
                             <li>User can delete ToDo item from list</li>
@@ -110,28 +123,28 @@ export default function PortfolioDiv() {
                 </div>
                 <div className={styles.imageContainer}>
                     <picture>
-                        <source media="(min-width: 1280px)" srcSet={DoItNowAppPHPImage} />
-                        <source media="(min-width: 1180px)" srcSet={DoItNowAppPHPImage} />
-                        <source media="(min-width: 1080px)" srcSet={DoItNowAppPHPImage914} />
-                        <source media="(min-width: 980px)" srcSet={DoItNowAppPHPImage814} />
-                        <source media="(min-width: 880px)" srcSet={DoItNowAppPHPImage714} />
-                        <source media="(min-width: 780px)" srcSet={DoItNowAppPHPImage614} />
+                        <source media="(min-width: 1280px)" srcSet={DoItNowAppRestApiImage} />
+                        <source media="(min-width: 1180px)" srcSet={DoItNowAppRestApiImage} />
+                        <source media="(min-width: 1080px)" srcSet={DoItNowAppRestApiImage914} />
+                        <source media="(min-width: 980px)" srcSet={DoItNowAppRestApiImage814} />
+                        <source media="(min-width: 880px)" srcSet={DoItNowAppRestApiImage714} />
+                        <source media="(min-width: 780px)" srcSet={DoItNowAppRestApiImage614} />
 
-                        <source media="(min-width: 768px)" srcSet={DoItNowAppPHPImage614} />
+                        <source media="(min-width: 768px)" srcSet={DoItNowAppRestApiImage614} />
                         
-                        <source media="(min-width: 680px)" srcSet={DoItNowAppPHPImage614} />
-                        <source media="(min-width: 580px)" srcSet={DoItNowAppPHPImage664} />
-                        <source media="(min-width: 480px)" srcSet={DoItNowAppPHPImage564} />
-                        <source media="(min-width: 380px)" srcSet={DoItNowAppPHPImage364} />
-                        <img src={DoItNowAppPHPImage364} alt="project img" />
+                        <source media="(min-width: 680px)" srcSet={DoItNowAppRestApiImage614} />
+                        <source media="(min-width: 580px)" srcSet={DoItNowAppRestApiImage668} />
+                        <source media="(min-width: 480px)" srcSet={DoItNowAppRestApiImage568} />
+                        <source media="(min-width: 380px)" srcSet={DoItNowAppRestApiImage568} />
+                        <img src={DoItNowAppRestApiImage568} alt="project img" />
                     </picture>
                 </div>
                 <div className={styles.buttonContainer}>
-                    <button onClick={() => window.open('https://doitnow-mysql-php-js-css-herok.herokuapp.com/')}>Live Demo</button>
+                    <button onClick={() => window.open('https://doitnow-restapi-heroku.herokuapp.com/')}>Live Demo</button>
                     <div className={styles.arrowLogoContainer}>
                         <img src={arrowlogo} alt="arrow symbol" onClick={handleDescriptionVisibility} className={styles.arrowDown}></img>
                     </div>
-                    <button onClick={() => window.open('https://github.com/RizwanMushtaq/doitnow_mysql_php_js_css_heroku')}> Code </button>
+                    <button onClick={() => window.open('https://github.com/RizwanMushtaq/doitnow_restapi_mysql_nodejs_express')}> Code </button>
                 </div>
                 
                 <div className={styles.projectDescription}>
