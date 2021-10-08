@@ -16,7 +16,7 @@ export default function MyIdCard() {
                 <p>Rizwan Mushtaq</p>
             </div>
             <div className={styles.profession}>
-                <p>Full Stack Web Developer</p>
+                <p>Front End Web-Developer</p>
                 <p>Sass JavaScript React.JS</p>
                 <p>Node.JS PHP MongoDB MySQL</p>
             </div>
