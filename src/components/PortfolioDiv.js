@@ -144,7 +144,7 @@ export default function PortfolioDiv() {
                     <div className={styles.arrowLogoContainer}>
                         <img src={arrowlogo} alt="arrow symbol" onClick={handleDescriptionVisibility} className={styles.arrowDown}></img>
                     </div>
-                    <button onClick={() => window.open('https://github.com/RizwanMushtaq/doitnow_restapi_mysql_nodejs_express')}> Code </button>
+                    <button onClick={() => window.open('https://github.com/RizwanMushtaq/doitnow_restapi_heroku')}> Code </button>
                 </div>
                 
                 <div className={styles.projectDescription}>
